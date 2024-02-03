@@ -1,0 +1,46 @@
+* {
+margin: 0;
+padding: 0;
+}
+h2 {
+    margin: 50px;
+}
+a {
+    /* border: 1px solid black;
+    padding: 10px 20px 15px 30px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    /* background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 20px; */
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(./img/flat-autumn-background_23-2149092983.avif) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.section_two {
+    background: none;
+    background-color: aquamarine;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    
+}
+.nav_link {
+    border: 1px solid red;
+    text-decoration: none;
+}
+.nav_link:not(:last-child) {
+margin-right: 100px;
+}

@@ -1,0 +1,15 @@
+* {
+    scroll-behavior: smooth;
+}
+.carousel-caption {
+    bottom: 15.25rem !important;
+}
+.technology {
+    padding: 1rem 2rem;
+}
+.technology-title {
+    margin-bottom: 60px;
+}
+footer {
+    background-color: rgb(248, 249, 250);
+}

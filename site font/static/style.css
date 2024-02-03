@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.text>p{
+    size: 40px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium';
+}
+.text>span{
+    display:block;
+    size: 40px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium';
+}
+.text2>a{
+    color:white;
+    opacity: 0.5;
+    opacity: 0,5; 
+    font-family: Arial;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+.bg{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    height: 100vh;
+    background-color: orange;
+
+}
+.text2>a:hover{
+    opacity: 1.0;
+}

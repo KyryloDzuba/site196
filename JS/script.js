@@ -1,0 +1,10 @@
+console.log('Я правильно підключив')
+const foxName = "Лисичка"
+const bearName = "Ведмедик"
+const hedgehogName = "Їжачок"
+const elephantName = "Слон"
+const squirrelName = "Білка"
+const hippopotamusName = "Бегемот"
+const owlName = "Сова"
+const bunnyName = "Кролик"
+const raccoonName = "Єнот"

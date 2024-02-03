@@ -1,0 +1,120 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    text-align: center;
+    background-color: rgb(28, 21, 21);
+  }
+  section > nav > a {
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium";
+    font-size: 30px;
+    text-decoration: none;
+  }
+  section > nav > a:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  /* главная часть */
+  
+  .section_2 {
+    border-top: 4px solid rgb(67, 67, 67);
+    background: url(../img/forest3.webp) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 50vh;
+  }
+  .text_title {
+    font-size: 30px;
+    color: aliceblue;
+    font-family: "Franklin Gothic Medium";
+    padding-top: 150px;
+  }
+  
+  .text {
+    padding-top: 130px;
+    padding-left: 10px;
+    width: 500px;
+    border: 3px solid rgb(235, 237, 239);
+    background-color: rgb(239, 249, 249);
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    border-radius: 15px;
+  }
+  .section_3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    background: none;
+    padding-bottom: 60px;
+  }
+  .photo>img {
+    margin-bottom: 0;
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+  }
+  .section_4>a{
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium";
+    font-size: 30px;
+    text-decoration: none;
+  }
+.section_4>a:not(:last-child){
+    margin-right: 20px;
+}
+.section_2page{
+    padding-left: 235px;
+    text-align: left;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    background: none;
+    padding-bottom: 60px;
+}
+.text_2page>a{
+    color: black;
+    padding-bottom: 10px;
+    text-decoration: none;
+    padding-top: 10px;
+    width: 500px;
+    border: 3px solid rgb(235, 237, 239);
+    background-color: rgb(239, 249, 249);
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    border-radius: 15px;
+}
+.text_2page>a:hover{
+    color: grey;
+}
+.text_2page>a{
+    transform: all .5s;
+
+}
+.section_3page{
+    padding-left: 235px;
+    text-align: left;
+    justify-content: space-evenly;
+    background: none;
+    padding-bottom: 60px;
+}
+.text_3page>a{
+    color: black;
+    padding-bottom: 10px;
+    text-decoration: none;
+    padding-top: 10px;
+    width: 500px;
+    border: 3px solid rgb(235, 237, 239);
+    background-color: rgb(239, 249, 249);
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    border-radius: 15px;
+}
+.text_3page>a:hover{
+    color: grey;
+}
+.text_3page>a{
+    transform: all .5s;
+}

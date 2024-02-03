@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.gray_line{
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    border-bottom: 7px solid rgb(0, 0, 0);
+}
+.main_section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    background: none;
+    padding-bottom: 60px;
+}
+.text{
+    padding-top: 130px;
+    padding-left: 10px;
+    width: 500px;
+    border: 6px solid rgb(177, 177, 177);
+    background-color: rgb(58, 58, 58);
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    border-radius: 15px;
+}
+.text>h1{
+    color: white;
+}
+.text>p{
+    color: white;
+}
+.back{
+    background-color: rgb(230, 230, 230);
+    border-left: 25px solid whitesmoke;
+    border-right: 25px solid whitesmoke;
+    border-bottom: 7px solid rgb(0, 0, 0);
+}
+.main_section>img{
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+.page1>a{
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 500px;
+    border: 6px solid rgb(177, 177, 177);
+    background-color: rgb(58, 58, 58);
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    border-radius: 15px;
+}
+.page1>a{
+    text-decoration: none;
+    color: white;
+}
+.page1{
+    background: url(../img/forest3.webp) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 10vh;
+    padding-bottom: 130px;
+    padding-top: 40px;
+    padding-left: 85px;
+}
+.gray_line2{
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    border-top: 7px solid rgb(0, 0, 0);
+}

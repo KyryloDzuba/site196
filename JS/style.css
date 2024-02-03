@@ -1,0 +1,28 @@
+.header,footer{
+    padding: 8px 0;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .buttons2{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }

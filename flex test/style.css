@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.conteiner{
+    flex-wrap: wrap;
+    display:flex ;
+    justify-content: center;
+    height: 769px;
+    flex-direction: column;
+
+}
+.conteiner>h1{
+    flex: 50px;
+    flex-flow: column wrap;
+    align-self: center center; 
+    order: 1;
+    width: 200px;
+}
+.conteiner>p{
+    flex: 50px;
+    align-self: center right;
+    order: 2;
+    width: 200px;
+}
+.conteiner>span{
+    flex: 50px;
+    align-self: center left;
+    order: 3;
+    width: 200px;
+}

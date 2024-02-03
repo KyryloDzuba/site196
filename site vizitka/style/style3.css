@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.gray_line{
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    border-bottom: 7px solid rgb(0, 0, 0);
+}
+.text {
+    padding-top: 130px;
+    padding-left: 10px;
+    width: 500px;
+    border: 7px solid  rgb(0, 0, 0);
+    background-color: rgb(54, 54, 54);
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    border-radius: 15px;
+  }
+  .section_1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    background: none;
+    padding-bottom: 60px;
+  } 
+.back{
+    background: url(../img/1675463754_bogatyr-club-p-temno-zelenii-gradient-krasivii-fon-1.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 50vh;
+}
+.text>h1{
+    color: whitesmoke;
+}
+.text>p{
+    color: whitesmoke;
+}
+.photo>img{
+    border-radius: 10px;
+    border: 7px solid black;
+    margin-bottom: 0;
+}
+.page1>a{
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 500px;
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgb(54, 54, 54);
+    font-family: "Franklin Gothic Medium";
+    font-size: 25px;
+    border-radius: 15px;
+}
+.page1>a{
+    text-decoration: none;
+    color: white;
+}
+.page1{
+    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 85px;
+}
+.gray_line2{
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    border-top: 7px solid rgb(0, 0, 0);
+}
+.back_2{
+    border-top: 7px solid black;
+    background-color: rgb(85, 85, 85);
+}
